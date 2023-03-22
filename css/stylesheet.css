@@ -1,0 +1,456 @@
+@font-face {
+    font-family: selfDeception;
+    src: url(../fonts/SelfDeceptionRegular-ALLWA.ttf)
+}
+
+/*Whole Site*/
+html{
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+}
+/*Nav Bar*/
+#nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navli{
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+.navli:last-child {
+    border-right: none;
+}
+
+.navli .navA {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navli .navA:hover:not(.active) {
+    background-color: #111;
+}
+
+.navli .navLogout {
+    display: block;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 0;
+    border-top: 0;
+    border-right-color: white;
+    border-left-color: white;
+}
+
+.navli .navA:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+/*Main Page*/
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+#tagline{
+    text-align: center;
+    font-family: "selfDeception";
+    font-weight: bold;
+    font-size: 54px;
+}
+
+/*Login Page*/
+#html-login{
+    height: 100px;
+}
+article{
+    height: 100%;
+    margin: 0;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+#main-holder {
+    width: 50%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 5px 2px black;
+}
+
+#login-error-msg-holder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#login-error-msg {
+    width: 23%;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8a0000;
+    border: 1px solid #8a0000;
+    background-color: #e58f8f;
+    opacity: 0;
+}
+
+#error-msg-second-line {
+    display: block;
+}
+
+#login-form {
+    align-self: flex-start;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.login-form-field::placeholder {
+    color: #3a3a3a;
+}
+
+.login-form-field {
+    border: none;
+    border-bottom: 1px solid #3a3a3a;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    outline: none;
+    padding: 0 0 5px 5px;
+}
+
+#login-form-submit {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #3a3a3a;
+    cursor: pointer;
+    outline: none;
+}
+
+/*Products page*/
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.flexCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*Cart*/
+
+.cartli{
+    padding-left: 5px;
+}
+
+.cart ion-icon {
+    vertical-align: bottom;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.cart a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container,
+.products-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+/*Cart Page*/
+.products-container{
+    max-width: 1000px;
+    justify-content: space-around;
+    margin: 50px auto 0;
+}
+
+.products-container ion-icon {
+    font-size: 25px;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product-header{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgrey;
+    margin: 0 auto;
+}
+
+.product-title {
+    width: 45%;
+}
+
+.product-price{
+    width: 15%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+}
+.product-quantity{
+    width: 30%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+}
+
+.cost-container{
+    margin: 0 auto;
+}
+.product-subtotal{
+    width: 10%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+}
+.product-tax{
+    margin-bottom: 2.2rem;
+    text-align: center;
+}
+
+.product-total {
+    justify-content: center;
+    margin-bottom: 2.2rem;
+}
+
+.product {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.priceInCart {
+
+}
+
+.products
+{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+}
+.products img
+{
+    width: 75px;
+}
+
+.basketSubTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketTaxContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketSubTotalTitle{
+    width: 30%;
+}
+
+.basketSubTotal{
+    width: 10%;
+}
+
+.basketTaxTitle{
+    width: 30%;
+}
+
+.basketTax{
+    width: 10%;
+}
+
+.basketTotalTitle{
+    width: 30%;
+}
+
+.basketTotal{
+    width: 10%;
+}
+
+
+/*Logout Page*/
+
+.logoutButton #logoutButton{
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    padding: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #3a3a3a;
+    cursor: pointer;
+    outline: none;
+}
+
+/*Checkout Page*/
+.checkoutContainer{
+    padding: 0px 50px;
+}
+
+/*Receipt Page*/
+.receiptContainer{
+    text-align: center;
+}
+
+.fromInfo{
+    padding: 0 25px;
+    line-height: 10px;
+}
+
+.toInfo {
+    padding: 0 25px;
+    line-height: 10px;
+}
+.subReceiptContainer{
+    width: 35%;
+    float: left;
+}
+
+.mainReceiptContainer {
+    padding: 0px 400px;
+}
+
+.receiptProducts{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#check-out-form-submit {
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 50px;
+}
+
+.product-receipt-header{
+    width: 100%;
+    max-width: 1125px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgrey;
+    margin: 0 auto;
+}
+
+.product-receipt-title {
+    width: 45%;
+}
+
+.product-receipt-price{
+    width: 15%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+}
+.product-receipt-quantity{
+    width: 30%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+}
+.product-receipt-subtotal{
+    width: 5%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1500px) {
+    .mainReceiptContainer {
+        padding: 0px 200px;
+    }
+}
+
+#title{
+    text-align: center;
+}
+.reflection-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 0 100px;
+    size: 22px;
+}

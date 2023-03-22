@@ -15,12 +15,26 @@
 <body>
 <!-- Logo -->
 
+
 <!-- Nav Bar made in JavaScript -->
 <nav id="mNav"></nav>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+<div class="products-container">
+    <div class="product-header">
+        <h5 class="product-title">PRODUCT</h5>
+        <h5 class="product-price">PRICE</h5>
+        <h5 class="product-quantity">QUANTITY</h5>
+        <h5 class="product-subtotal">SUBTOTAL</h5>
+    </div>
+    <div class="products">
 
+    </div>
+    <div class="checkout">
+        <input type="submit" value="Checkout!" class="btn btn-primary btn-lg btn-block" id="check-out-form-submit">
+    </div>
+</div>
 
 </body>
 <footer>
@@ -31,7 +45,7 @@
     <script>var date = new Date();
     document.getElementById("p1").innerHTML = date;</script>
 
-    <!--Link to gpu icon I used-->
+
     <script src="../js/nav.js"></script>
     <script src="../js/cart.js"></script>
 </footer>

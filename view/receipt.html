@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../css/stylesheet.css">
+  <link rel="icon" type="image/x-icon" href="#">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Logo -->
+
+<div class="mainReceiptContainer">
+  <div class="receiptContainer">
+    <h1>Thank you,</h1>
+    <h1 id="pName"></h1>
+  </div>
+
+  <hr class="my-4">
+  <div class="subReceiptContainer">
+    <div class="fromContainer">
+      <h4>From:</h4>
+      <div class="fromInfo">
+        <p>Aidan Potter</p>
+        <p>(555) 555-5555</p>
+        <p>Aidan@GraphicsCenter.com</p>
+        <p>423 W Main St,</p>
+        <p>RandomTown, PA 16000</p>
+      </div>
+    </div>
+    <div class="toContainer">
+      <h4>To:</h4>
+      <div class="toInfo">
+        <p id="toName"></p>
+        <p id="toEmail"></p>
+        <p id="toAddress"></p>
+        <p id="toAddress2"></p>
+        <p id="toCityStateandZip"></p>
+      </div>
+    </div>
+  </div>
+  <div class="receiptContainer">
+    <div class="product-receipt-header">
+      <h5 class="product-receipt-title">PRODUCT</h5>
+      <h5 class="product-receipt-price">PRICE</h5>
+      <h5 class="product-receipt-quantity">QUANTITY</h5>
+      <h5 class="product-receipt-subtotal">SUBTOTAL</h5>
+    </div>
+  </div>
+  <div class="receiptProducts"></div>
+</div>
+</body>
+<footer>
+  <!--Copyright info -->
+
+  <!--Time and date -->
+  <p id="p1"></p>
+  <script>var date = new Date();
+  document.getElementById("p1").innerHTML = date;</script>
+
+
+  <script src="../js/cart.js"></script>
+  <script src="../js/checkout.js"></script>
+</footer>
+</html>
