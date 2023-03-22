@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../css/stylesheet.css">
+  <link rel="icon" type="image/x-icon" href="#">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body id="cBody">
+<!-- Logo -->
+
+<div>
+  <input type="submit" value="<-- Go back" id="goBack">
+  <div class="py-5 text-center">
+    <h2>Checkout!</h2>
+  </div>
+</div>
+
+<div class="checkoutContainer">
+  <h4 class="mb-3">Billing Address</h4>
+  <form class="checkoutForm" novalidate>
+    <div class="row g-3">
+      <div class="col-sm-6">
+        <label for="firstName" class="form-label">First Name</label>
+        <input id="firstName" type="text" class="form-control" placeholder="John" required>
+        <div class="invalid-feedback">
+        Valid First Name is required.
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <label for="lastName" class="form-label">Last Name</label>
+        <input id="lastName" type="text" class="form-control" placeholder="Smith" required>
+        <div class="invalid-feedback">
+          Valid Last Name is required.
+        </div>
+      </div>
+      <div class="col-12">
+        <label for="email" class="form-label">Email</label>
+        <input id="email" type="text" class="form-control" placeholder="email@provider.com" required>
+        <div class="invalid-feedback">
+          Valid Email Address is required.
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <label for="address" class="form-label">Address</label>
+        <input id="address" type="text" class="form-control" placeholder="123 W Main st" required>
+        <div class="invalid-feedback">
+          Valid Address is required.
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <label for="address2" class="form-label">Address (line 2)</label>
+        <input id="address2" type="text" class="form-control" placeholder="Apt #" optional>
+      </div>
+      <div class="col-md-4">
+        <label for="city" class="form-label">City</label>
+        <input id="city" type="text" class="form-control" placeholder="RandomTown" required>
+        <div class="invalid-feedback">
+          Valid Address is required.
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <label for="state" class="form-label">State</label>
+        <select id="state" class="form-control">
+          <option value="">Choose...</option>
+          <option value="PA">Pennsylvania</option>
+        </select>
+      </div>
+      <div class="col-md-4">
+        <label for="zipcode" class="form-label">Zipcode</label>
+        <input id="zipcode" type="number" class="form-control" placeholder="123456" required>
+        <div class="invalid-feedback">
+          Valid Zipcode is required.
+        </div>
+      </div>
+
+        <hr class="my-4">
+
+      <div class="col-12">
+        <div class="form-check">
+          <input id="sameAddress" type="checkbox" class="form-check-input">
+          <label for="sameAddress">Is the shipping the same as billing?</label>
+        </div>
+      </div>
+
+      <button class="btn btn-primary btn-lg btn-block" id="checkOutButton">Checkout</button>
+
+
+    </div>
+  </form>
+</div>
+
+
+</body>
+<footer>
+  <!--Copyright info -->
+
+
+  <!--Time and date -->
+  <p id="p1"></p>
+  <script>var date = new Date();
+  document.getElementById("p1").innerHTML = date;</script>
+
+
+  <script src="../js/nav.js"></script>
+  <script src="../js/cart.js"></script>
+  <script src="../js/checkout.js"></script>
+</footer>
+</html>
