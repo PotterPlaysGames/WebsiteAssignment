@@ -2,7 +2,9 @@
 const navBarNotLoggedIn= `
    <ul id="nav">
     <li class="navli"><a class="navA" href="../view/index.html">Home</a></li>
-    <li class="navli"><a class="navA" href="../view/products.html">Products</a></li>
+    <li class="navli"><a class="navA" href="#">About Us</a></li>
+    <li class="navli"><a class="navA" href="#">Contact Us</a></li>
+    <li class="navli"><a class="navA" href="../view/products.html">Store</a></li>
     <li class="navli" style="float:right"><a class="navA" href="../view/login.html">Login!</a></li>
    </ul>`
 
@@ -10,7 +12,9 @@ const navBarNotLoggedIn= `
 const navBarLoggedIn= `
    <ul id="nav">
     <li class="navli"><a class="navA" href="../view/index.html">Home</a></li>
-    <li class="navli"><a class="navA" href="../view/products.html">Products</a></li>
+    <li class="navli"><a class="navA" href="#">About Us</a></li>
+    <li class="navli"><a class="navA" href="#">Contact Us</a></li>
+    <li class="navli"><a class="navA" href="../view/products.html">Store</a></li>
     <li class="navli cartli cart" style="float:right"><a class="navA" href="../view/cart.html"><ion-icon name="basket"></ion-icon>Cart<span id="cartSpan" class="cartli">0</span></a></li>
     <li class="navli" style="float:right"><a class="navA" href="../view/Logout.html">Logout!</a></li>
    </ul>`
