@@ -69,9 +69,8 @@ footer{
 }
 /*Main Page*/
 #logo{
-    display: block;
-    width: 1600px;
-    height: 200px;
+    width: 2600px;
+    height: 210px;
     overflow: hidden;
 }
 #tagline{
@@ -229,16 +228,21 @@ article{
     padding-bottom: 100px;
 }
 
+.BodGrey{
+    background-color: #bbbbbb;
+}
+
 /*Cart Page*/
 .products-container{
     max-width: 1000px;
     justify-content: space-around;
     margin: 50px auto 0;
+    background-color: #bbbbbb;
 }
 
 .products-container ion-icon {
     font-size: 25px;
-    color: blue;
+    color: purple;
     margin-left: 10px;
     margin-right: 10px;
     cursor: pointer;
@@ -296,6 +300,10 @@ article{
     align-items: center;
     padding: 10px 0;
     border-bottom: 1px solid lightgrey;
+}
+
+.btnColor{
+    color: purple;
 }
 
 .priceInCart {
@@ -412,6 +420,7 @@ article{
     font-size: 16px;
     cursor: pointer;
     padding: 10px 50px;
+    background-color: purple;
 }
 
 .product-receipt-header{

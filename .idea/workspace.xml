@@ -7,10 +7,12 @@
     <list default="true" id="3f808ec2-e670-4a7b-a39f-e44ea08a7523" name="Changes" comment="Added old code, modified for project. Added place holders&#10;&#10;Ignore all warnings, it works.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/login-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/login-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/Logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/Logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/checkout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/receipt.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/receipt.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +84,8 @@
       <workItem from="1679492088922" duration="1914000" />
       <workItem from="1679494558536" duration="2067000" />
       <workItem from="1679666363247" duration="3078000" />
+      <workItem from="1679706659436" duration="341000" />
+      <workItem from="1679707020909" duration="1646000" />
     </task>
     <task id="LOCAL-00001" summary="Added Index">
       <created>1678889347570</created>
