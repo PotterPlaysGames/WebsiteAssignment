@@ -474,3 +474,41 @@ article{
 {
     size: 1000px;
 }
+
+/*About Us*/
+
+/* Apply styles to the About us section */
+.about-section {
+    background-color: #bbbbbb;
+    padding: 50px 100px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+/* Style the header of the About us section */
+.about-headers {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #6c5ce7;
+}
+
+/* Style the paragraph of the About us section */
+.aboutUsLines {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.aboutBanner {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
