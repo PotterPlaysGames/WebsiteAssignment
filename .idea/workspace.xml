@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f808ec2-e670-4a7b-a39f-e44ea08a7523" name="Changes" comment="Added Banner, needs fixed">
-      <change afterPath="$PROJECT_DIR$/js/contactus.js" afterDir="false" />
+    <list default="true" id="3f808ec2-e670-4a7b-a39f-e44ea08a7523" name="Changes" comment="Added a bunch of things">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/contactUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/contactUs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/checkout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/receipt.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/receipt.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +84,7 @@
       <workItem from="1679494558536" duration="2067000" />
       <workItem from="1679666363247" duration="3078000" />
       <workItem from="1681737250601" duration="2343000" />
-      <workItem from="1682082536634" duration="6139000" />
+      <workItem from="1682082536634" duration="13634000" />
     </task>
     <task id="LOCAL-00001" summary="Added Index">
       <created>1678889347570</created>
@@ -116,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681739584677</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added a bunch of things">
+      <created>1682088715916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682088715916</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +144,7 @@
     <MESSAGE value="Added old code, modified for project. Added place holders" />
     <MESSAGE value="Added old code, modified for project. Added place holders&#10;&#10;Ignore all warnings, it works." />
     <MESSAGE value="Added Banner, needs fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Banner, needs fixed" />
+    <MESSAGE value="Added a bunch of things" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a bunch of things" />
   </component>
 </project>

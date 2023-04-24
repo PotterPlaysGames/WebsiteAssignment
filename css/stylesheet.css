@@ -18,7 +18,7 @@ footer{
     text-align: center;
 }
 
-#homeBody{
+.homeBody{
     background-color: #bbbbbb;
 }
 /*Nav Bar*/
@@ -171,11 +171,21 @@ article{
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
+    width: 300px;
     margin: auto;
     text-align: center;
     font-family: arial;
     background-color: purple;
+}
+.card p {
+    flex-grow: 1;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    justify-content: space-between;
 }
 
 .price {

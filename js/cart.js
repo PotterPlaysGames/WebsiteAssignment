@@ -4,45 +4,93 @@ let carts = document.querySelectorAll('.add-cart');
 //adds products to variable products
 let products = [
     {
-        name: 'Product 1',
-        tag: 'product1',
-        price: 1,
+        name: 'HexTech GeForce RTX 4070',
+        tag: 'rtx4070',
+        price: 599.99,
         inCart: 0
     },
     {
-        name: 'Product 2',
-        tag: 'product2',
-        price: 2,
+        name: 'HexTech GeForce RTX 4070 Ti',
+        tag: 'rtx4070Ti',
+        price: 799.99,
         inCart: 0
     },
     {
-        name: 'Product 3',
-        tag: 'product3',
-        price: 3,
+        name: 'HexTech GeForce RTX 4080',
+        tag: 'rtx4080',
+        price: 1199.99,
         inCart: 0
     },
     {
-        name: 'Product 4',
-        tag: 'product4',
-        price: 4,
+        name: 'HexTech GeForce RTX 4090',
+        tag: 'rtx4090',
+        price: 1599.99,
         inCart: 0
     },
     {
-        name: 'Product 5',
-        tag: 'product5',
-        price: 5,
+        name: 'Hex Arc A380',
+        tag: 'hex380',
+        price: 129.99,
         inCart: 0
     },
     {
-        name: 'Product 6',
-        tag: 'product6',
-        price: 6,
+        name: 'Hex Arc A750',
+        tag: 'hex750',
+        price: 199.99,
         inCart: 0
     },
     {
-        name: 'Product 7',
-        tag: 'product7',
-        price: 7,
+        name: 'Hex Arc A770',
+        tag: 'hex770',
+        price: 349.99,
+        inCart: 0
+    },
+    {
+        name: 'Hex Radagon RX 7900 XT',
+        tag: 'hexRad7900xt',
+        price: 899.99,
+        inCart: 0
+    },
+    {
+        name: 'Hex Radagon RX 7900 XTX',
+        tag: 'hexRad7900xtx',
+        price: 999.99,
+        inCart: 0
+    },
+    {
+        name: 'Hex Core H5-13600K',
+        tag: 'hexCoreH5',
+        price: 319.99,
+        inCart: 0
+    },
+    {
+        name: 'Hex Core H9-13900K',
+        tag: 'hexCoreH9',
+        price: 589.99,
+        inCart: 0
+    },
+    {
+        name: 'HEX Sixzen 7 7800X3D',
+        tag: 'hexSizen7800X3D',
+        price: 449.99,
+        inCart: 0
+    },
+    {
+        name: 'HEX Sixen 9 7900X3D',
+        tag: 'hexSizen7900X3D',
+        price: 599.99,
+        inCart: 0
+    },
+    {
+        name: 'HEX Sizen 9 7950X3D',
+        tag: 'hexSizen7950X3D',
+        price: 699.99,
+        inCart: 0
+    },
+    {
+        name: 'Hexagon NFT',
+        tag: 'hexGod',
+        price: 999999.99,
         inCart: 0
     },
 ]
@@ -161,6 +209,21 @@ function total(){
     console.log(totalCost);
 }
 
+function removeItem(tag) {
+    let cartItems = JSON.parse(localStorage.getItem('productsInCart'));
+    let productNumbers = localStorage.getItem('cartNumbers');
+    let cartCost = localStorage.getItem('totalCost');
+
+    // Remove item from cartItems
+    delete cartItems[tag];
+    localStorage.setItem('productsInCart', JSON.stringify(cartItems));
+
+    // Update cart numbers and total cost
+    localStorage.setItem('cartNumbers', productNumbers - cartItems[tag].inCart);
+    localStorage.setItem('totalCost', cartCost - (cartItems[tag].price * cartItems[tag].inCart));
+}
+
+
 //displayCart displays the product that you have added to your cart.
 function displayCart(){
     //Pulls the stored products and assigns it to cartItems
@@ -176,9 +239,11 @@ function displayCart(){
     //Tuns the subtotal and tax into a float.
     subCartCost = parseFloat(subCartCost);
     taxTotal = parseFloat(taxTotal);
+    taxTotal = Number(taxTotal.toFixed(2));
 
     //Checks that there are items to put into the cart
     let totalCost = (subCartCost + taxTotal)
+    totalCost = Number(totalCost.toFixed(2));
 
     //Checks that there are items to put into the cart
     if( cartItems && productContainer){
@@ -191,16 +256,17 @@ function displayCart(){
                <img src="../img/${item.tag}.png" class="picInCart">
                <span>${item.name}</span>
            </div>
-           <div class="product-price">$${item.price}.00</div>
+           <div class="product-price">$${item.price}</div>
            <div class="product-quantity">
                <ion-icon class="decrease" name="chevron-down-circle-outline"></ion-icon>
                <span>${item.inCart}</span>
                <ion-icon class="increase" name="chevron-up-circle-outline"></ion-icon>
            </div>
            <div class="product-subtotal">
-           $${item.inCart * item.price}.00</div>
+           $${item.inCart * item.price}</div>
            `
         });
+
 
         //Adds the subtotal, tax and total through adding html through the products class
         productContainer.innerHTML += `
@@ -209,7 +275,7 @@ function displayCart(){
                     Cart Sub Total
                 </h4>
                 <h4 class="basketSubTotal">
-                    $${subCartCost}.00</h4>
+                    $${subCartCost}</h4>
             </div>
             
             <div class="basketTaxContainer">
@@ -225,6 +291,17 @@ function displayCart(){
             `
     }
 }
+
+let removeButtons = document.querySelectorAll('.removeButton');
+
+for (let i = 0; i < removeButtons.length; i++) {
+    removeButtons[i].addEventListener('click', () => {
+        let tag = removeButtons[i].getAttribute('data-tag');
+        removeItem(tag);
+        location.reload();
+    });
+}
+
 
 let checkoutSubmit = document.getElementById('check-out-form-submit');
 

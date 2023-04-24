@@ -69,9 +69,11 @@ function displayReceipt(){
     //Tuns the subtotal and tax into a float.
     subCartCost = parseFloat(subCartCost);
     taxTotal = parseFloat(taxTotal);
+    taxTotal = Number(taxTotal.toFixed(2));
 
-    //Adds the subtotal and Tax together.
+    //Checks that there are items to put into the cart
     let totalCost = (subCartCost + taxTotal)
+    totalCost = Number(totalCost.toFixed(2));
 
     //Checks that there are items to put into the cart
     if( cartItems && productContainer){
@@ -82,12 +84,12 @@ function displayReceipt(){
            <div class="product">
                <span>${item.name}</span>
            </div>
-           <div class="product-price">$${item.price}.00</div>
+           <div class="product-price">$${item.price}</div>
            <div class="product-quantity">
                <span>${item.inCart}</span>
            </div>
            <div class="product-subtotal">
-           $${item.inCart * item.price}.00</div>
+           $${item.inCart * item.price}</div>
            `
         });
 
@@ -98,7 +100,7 @@ function displayReceipt(){
                     Sub Total
                 </h4>
                 <h4 class="basketSubTotal">
-                    $${subCartCost}.00</h4>
+                    $${subCartCost}</h4>
             </div>
             
             <div class="basketTaxContainer">
