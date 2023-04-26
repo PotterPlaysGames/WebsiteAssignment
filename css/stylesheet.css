@@ -181,10 +181,17 @@ article{
     flex-grow: 1;
 }
 
+.imgCard{
+    max-width: 80%;
+    max-height: 75%;
+    display: block;
+    flex-wrap: wrap;
+}
+
 .card-content {
     display: flex;
     flex-direction: column;
-    height: 450px;
+    height: 700px;
     justify-content: space-between;
 }
 

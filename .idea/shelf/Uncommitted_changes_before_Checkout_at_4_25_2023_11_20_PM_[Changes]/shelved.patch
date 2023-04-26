@@ -1,0 +1,103 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"3f808ec2-e670-4a7b-a39f-e44ea08a7523\" name=\"Changes\" comment=\"Added old code, modified for project. Added place holders&#10;&#10;Ignore all warnings, it works.\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/git_toolbox_prj.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/view/aboutUs.html\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/view/contactUs.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/js/nav.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/js/nav.js\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"Aidans_Branch\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitToolBoxStore\">\r\n    <option name=\"projectConfigVersion\" value=\"5\" />\r\n    <option name=\"recentBranches\">\r\n      <RecentBranches>\r\n        <option name=\"branchesForRepo\">\r\n          <list>\r\n            <RecentBranchesForRepo>\r\n              <option name=\"branches\">\r\n                <list>\r\n                  <RecentBranch>\r\n                    <option name=\"branchName\" value=\"master\" />\r\n                    <option name=\"lastUsedInstant\" value=\"1680727245\" />\r\n                  </RecentBranch>\r\n                  <RecentBranch>\r\n                    <option name=\"branchName\" value=\"Aidans_Branch\" />\r\n                    <option name=\"lastUsedInstant\" value=\"1680727244\" />\r\n                  </RecentBranch>\r\n                </list>\r\n              </option>\r\n              <option name=\"repositoryRootUrl\" value=\"file://$PROJECT_DIR$\" />\r\n            </RecentBranchesForRepo>\r\n          </list>\r\n        </option>\r\n      </RecentBranches>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2N3O8ofzJT6uMdPJ7xhwIQwxaat\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"DefaultHtmlFileTemplate\": \"HTML File\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"last_opened_file_path\": \"C:/Users/minec/Desktop/websites/GraphicsCenter/WebsiteAssignment/view\",\r\n    \"list.type.of.created.stylesheet\": \"CSS\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"project.structure.last.edited\": \"Project\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.0\",\r\n    \"settings.editor.selected.configurable\": \"preferences.lookFeel\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\minec\\Desktop\\websites\\GraphicsCenter\\WebsiteAssignment\\view\" />\r\n      <recent name=\"C:\\Users\\minec\\Desktop\\Websites\\WebsiteAssignment\\js\" />\r\n      <recent name=\"C:\\Users\\minec\\Desktop\\Websites\\WebsiteAssignment\\view\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\minec\\Desktop\\Websites\\WebsiteAssignment\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"3f808ec2-e670-4a7b-a39f-e44ea08a7523\" name=\"Changes\" comment=\"\" />\r\n      <created>1678889144836</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1678889144836</updated>\r\n      <workItem from=\"1678889146251\" duration=\"521000\" />\r\n      <workItem from=\"1679491373517\" duration=\"700000\" />\r\n      <workItem from=\"1679492088922\" duration=\"1914000\" />\r\n      <workItem from=\"1679494558536\" duration=\"2067000\" />\r\n      <workItem from=\"1679666363247\" duration=\"3078000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Added Index\">\r\n      <created>1678889347570</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678889347570</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"added header\">\r\n      <created>1679493005595</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679493005595</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Added old code, modified for project. Added place holders&#10;&#10;Ignore all warnings, it works.\">\r\n      <created>1679496349425</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679496349425</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Added old code, modified for project. Added place holders&#10;&#10;Ignore all warnings, it works.\">\r\n      <created>1680727301708</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680727301708</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Added Index\" />\r\n    <MESSAGE value=\"added header\" />\r\n    <MESSAGE value=\"Added old code, modified for project. Added place holders\" />\r\n    <MESSAGE value=\"Added old code, modified for project. Added place holders&#10;&#10;Ignore all warnings, it works.\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Added old code, modified for project. Added place holders&#10;&#10;Ignore all warnings, it works.\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 485582e43bd019a93091739cf60838389127040c)
++++ b/.idea/workspace.xml	(date 1681261463266)
+@@ -4,11 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="3f808ec2-e670-4a7b-a39f-e44ea08a7523" name="Changes" comment="Added old code, modified for project. Added place holders&#10;&#10;Ignore all warnings, it works.">
+-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/view/aboutUs.html" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/view/contactUs.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/js/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/nav.js" afterDir="false" />
++    <list default="true" id="3f808ec2-e670-4a7b-a39f-e44ea08a7523" name="Changes" comment="Added About us and Contact us pages">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -66,25 +63,25 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "DefaultHtmlFileTemplate": "HTML File",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "last_opened_file_path": "C:/Users/minec/Desktop/websites/GraphicsCenter/WebsiteAssignment/view",
+-    "list.type.of.created.stylesheet": "CSS",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "project.structure.last.edited": "Project",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.0",
+-    "settings.editor.selected.configurable": "preferences.lookFeel"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/minec/Desktop/websites/GraphicsCenter/WebsiteAssignment/view&quot;,
++    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\minec\Desktop\websites\GraphicsCenter\WebsiteAssignment\view" />
+@@ -108,6 +105,8 @@
+       <workItem from="1679492088922" duration="1914000" />
+       <workItem from="1679494558536" duration="2067000" />
+       <workItem from="1679666363247" duration="3078000" />
++      <workItem from="1680729342237" duration="6000" />
++      <workItem from="1681261442218" duration="21000" />
+     </task>
+     <task id="LOCAL-00001" summary="Added Index">
+       <created>1678889347570</created>
+@@ -137,7 +136,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1680727301708</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="Added About us and Contact us pages">
++      <created>1680727973317</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1680727973317</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -159,6 +165,7 @@
+     <MESSAGE value="added header" />
+     <MESSAGE value="Added old code, modified for project. Added place holders" />
+     <MESSAGE value="Added old code, modified for project. Added place holders&#10;&#10;Ignore all warnings, it works." />
+-    <option name="LAST_COMMIT_MESSAGE" value="Added old code, modified for project. Added place holders&#10;&#10;Ignore all warnings, it works." />
++    <MESSAGE value="Added About us and Contact us pages" />
++    <option name="LAST_COMMIT_MESSAGE" value="Added About us and Contact us pages" />
+   </component>
+ </project>
+\ No newline at end of file
